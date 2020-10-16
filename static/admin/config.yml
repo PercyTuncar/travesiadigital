@@ -3,6 +3,8 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
+media_folder: "images/uploads"
+
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
 media_library:
   name: uploadcare
@@ -17,7 +19,7 @@ media_library:
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'pages'
-    label: 'Page'
+    label: 'Page xd'
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: true
